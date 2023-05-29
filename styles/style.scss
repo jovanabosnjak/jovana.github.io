@@ -45,7 +45,7 @@ body {
                 font-size: 20px;
                 display: flex;
                 .img {
-                    background-image: url('../../images/document.png');
+                    background-image: url('../document.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     width: 50px;
@@ -115,7 +115,7 @@ header {
     @include flex-position-center;
     text-align: center;
     .background-img {
-        background-image: url("../../images/image1.jpg");
+        background-image: url("../image1.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -196,15 +196,15 @@ header {
                             width: 100%;
                             height: 50px;
                             .icon1 {
-                                background-image: url('../../images/brain.png');
+                                background-image: url('../brain.png');
                                 @include img-features;
                             }
                             .icon2 {
-                                background-image: url('../../images/web-design.png');
+                                background-image: url('../web-design.png');
                                 @include img-features;
                             }
                             .icon3 {
-                                background-image: url('../../images/web-design\ \(2\).png');
+                                background-image: url('../web-design\ \(2\).png');
                                 @include img-features;
                             }
                         }
@@ -242,15 +242,15 @@ header {
                             width: 100%;
                             height: 50px;
                             .icon1 {
-                                background-image: url('../../images/develop.png');
+                                background-image: url('../develop.png');
                                 @include img-features;
                             }
                             .icon2 {
-                                background-image: url('../../images/software-developer.png');
+                                background-image: url('../software-developer.png');
                                 @include img-features;
                             }
                             .icon3 {
-                                background-image: url('../../images/website.png');
+                                background-image: url('../website.png');
                                 @include img-features;
                             }
                         }
@@ -271,7 +271,8 @@ header {
                 .get-to-know-me {
                     @include links-a;
                     width: 200px;
-                    font-weight: 800;
+                    font-weight: 900;
+                    font-size: 18px;
                     margin-top: 20px;
                     background-color: #d4c6e6;
                     border-radius: 20px;
@@ -345,7 +346,7 @@ main {
                 border-bottom-right-radius: 20px;
             }
             #photo-me {
-                background-image: url('../../images/image-me.jpg');
+                background-image: url('../image-me.jpg');
                 @include img-features;
                 width: 16%;
                 height: 53vh;

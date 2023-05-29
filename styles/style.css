@@ -38,7 +38,7 @@ body {
   display: flex;
 }
 #navbar a #logo .img {
-  background-image: url("../../images/document.png");
+  background-image: url("../document.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 50px;
@@ -92,7 +92,7 @@ header {
   text-align: center;
 }
 header .background-img {
-  background-image: url("../../images/image1.jpg");
+  background-image: url("../image1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ header .background-img #opacity .left-right .left-pan #icons {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon1 {
-  background-image: url("../../images/brain.png");
+  background-image: url("../brain.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,7 +183,7 @@ header .background-img #opacity .left-right .left-pan #icons .icon1 {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon2 {
-  background-image: url("../../images/web-design.png");
+  background-image: url("../web-design.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,7 +191,7 @@ header .background-img #opacity .left-right .left-pan #icons .icon2 {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon3 {
-  background-image: url("../../images/web-design (2).png");
+  background-image: url("../web-design (2).png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -235,7 +235,7 @@ header .background-img #opacity .left-right .right-pan #icons-right {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon1 {
-  background-image: url("../../images/develop.png");
+  background-image: url("../develop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -243,7 +243,7 @@ header .background-img #opacity .left-right .right-pan #icons-right .icon1 {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon2 {
-  background-image: url("../../images/software-developer.png");
+  background-image: url("../software-developer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ header .background-img #opacity .left-right .right-pan #icons-right .icon2 {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon3 {
-  background-image: url("../../images/website.png");
+  background-image: url("../website.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -275,7 +275,8 @@ header .background-img #opacity .get-to-know-me {
   text-decoration: none;
   font-size: 23px;
   width: 200px;
-  font-weight: 800;
+  font-weight: 900;
+  font-size: 18px;
   margin-top: 20px;
   background-color: #d4c6e6;
   border-radius: 20px;
@@ -314,7 +315,7 @@ main section #behind {
   border-bottom-right-radius: 20px;
 }
 main section #photo-me {
-  background-image: url("../../images/image-me.jpg");
+  background-image: url("../image-me.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
