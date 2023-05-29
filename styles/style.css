@@ -759,7 +759,7 @@ main #contact #contact-me p {
   align-items: center;
 }
 main #contact #contact-form {
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
   flex: 1;
   display: flex;
@@ -781,10 +781,13 @@ main #contact .contact-row {
 main #contact input[type=text],
 main #contact input[type=email],
 main #contact textarea {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   width: 70%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  background-color: #f1efe9;
 }
 main #contact input[type=text],
 main #contact input[type=email] {
@@ -794,19 +797,21 @@ main #contact textarea {
   resize: none;
 }
 main #contact button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #f1efe9;
+  color: #ac91ce;
+  font-weight: 600;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 main #contact input[type=text]:focus,
 main #contact input[type=email]:focus,
 main #contact textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #f1efe9;
 }
 main #contact button:hover {
-  background-color: #0056b3;
+  background-color: #333;
 }/*# sourceMappingURL=style.css.map */

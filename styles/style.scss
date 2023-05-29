@@ -686,7 +686,7 @@ main {
                 }
             }
             #contact-form {
-                width: 40%; 
+                width: 100%; 
                 margin: 0 auto;
                 flex: 1;
                 display: flex;
@@ -701,7 +701,6 @@ main {
                 flex: 1;
                 display: flex;
                 flex-direction: column;
-                
             }
             
             .contact-row {
@@ -711,10 +710,13 @@ main {
             input[type="text"],
             input[type="email"],
             textarea {
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
                 width: 70%;
                 padding: 10px;
                 border: 1px solid #ccc;
                 border-radius: 10px;
+                background-color: #f1efe9;
             }
             
             input[type="text"],
@@ -727,24 +729,25 @@ main {
             }
             
             button {
-                background-color: #007bff;
-                color: #fff;
+                background-color: #f1efe9;
+                color: #ac91ce;
+                font-weight: 600;
                 border: none;
                 border-radius: 10px;
                 padding: 10px 20px;
                 cursor: pointer;
+                font-family: "Inter", sans-serif;
             }
             
-            // Pseudo-klase za stanja
             input[type="text"]:focus,
             input[type="email"]:focus,
             textarea:focus {
                 outline: none;
-                border-color: #007bff;
+                border-color: #f1efe9;
             }
             
             button:hover {
-                background-color: #0056b3;
+                background-color: #333;
             }
     }
 }
