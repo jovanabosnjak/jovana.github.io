@@ -214,7 +214,11 @@ $phone6: 321px;
                 position: relative;
                 align-self: self-start;
                 p {
-                    margin-left: 10px;
+                    margin-left: 6px;
+                    color: #d4c6e6;
+                }
+                .e, .c, .t, .s {
+                    color: #f1efe9;
                 }
             }
             
@@ -227,7 +231,47 @@ $phone6: 321px;
                     }
                 }
             }
+                #behind2 {
+                    border-top-left-radius: 0px;
+                }
+        }
+        #contact {
+            flex-direction: row;
+        
+            #contact-me {
+                order: 1;
+                padding: 10px;
+                p {
+                    font-size: 18px;
+                }
+            }
             
+            #contact-form {
+                order: 2;
+                min-width: 50%;
+            
+            .contact-row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            input[type="text"],
+            input[type="email"] {
+                width: 48%;
+                height: auto;
+            }
+            
+            textarea {
+                width: 100%;
+
+            }
+            
+            button {
+                width: auto;
+            }
+            }
         }
     }
 }
@@ -300,6 +344,7 @@ $phone6: 321px;
                 font-size: 0.9rem;
             }
         }
+        
     }
 }
 
@@ -322,7 +367,6 @@ $phone6: 321px;
                 justify-content: center;
                 a {
                     transition: none;
-                    pointer-events: none;
                     font-size: 18px;
                 }
             }
@@ -345,7 +389,6 @@ $phone6: 321px;
                     
                     .left-pan {
                         transition: none;
-                        pointer-events: none;
                         width: 35vh;
                             h3 {
                                 font-size: 2.5vh;
@@ -353,13 +396,11 @@ $phone6: 321px;
                     }
                     .right-pan {
                         transition: none;
-                        pointer-events: none;
                         width: 35vh;
                         a {
                             h3 {
                                 font-size: 2.5vh;
                                 transition: none;
-                                pointer-events: none;
                             }
                         }
                     }
@@ -368,7 +409,6 @@ $phone6: 321px;
                     font-size: 15px;
                     width: 150px;
                     transition: none;
-                    pointer-events: none;
                 }
             }
         }
@@ -381,6 +421,7 @@ $phone6: 321px;
             #behind {
                 width: 50%;
                 height: 103%;
+                border-top-right-radius: 0px;
             }
             #photo-me {
                 margin-top: 30px;
@@ -420,8 +461,8 @@ $phone6: 321px;
                 border-right: 0px;
                 border-top: 5px solid #d4c6e6;
                 flex-direction: row;
-                height: 4vh;
-                padding-right: 40px;
+                height: 5vh;
+                padding-right: 57px;
                 width: 100%;
                 position: relative;
                 align-self: self-start;
@@ -430,6 +471,9 @@ $phone6: 321px;
                 }
                 p {
                     color: #f1efe9;
+                    margin-left: 5px;
+                    padding-top: 10px;
+                    font-size: 21px;
                 }
                 .m, .e {
                     color: #d4c6e6;
@@ -553,6 +597,18 @@ $phone6: 321px;
                         font-size: 0.8rem;
                     }
                 }
+            }
+        }
+        #contact {
+            #contact-me {
+                margin-top: 20px;
+                p {
+                    font-size: 17px;
+                }
+            }
+            .contact-row2 {
+                display: flex;
+                justify-content: center;
             }
         }
     }
@@ -680,6 +736,13 @@ $phone6: 321px;
         #design {
             #des, #dev {
                 height: 70px;
+            }
+        }
+    }
+    footer { 
+        .socials, .sass {
+            a {
+                font-size: 14px;
             }
         }
     }
@@ -877,5 +940,24 @@ $phone6: 321px;
                 }
             }
         }
+        #contact {
+            #contact-me {
+                p {
+                    font-size: 15px;
+                }
+            }
+            #contact-f {
+                width: 80%;
+            }
+            input[type="text"],
+            input[type="email"], 
+            textarea  {
+                font-size: 15px;
+                height: 37px;
+            }
+        }
+    }
+    footer {
+        height: 150px;
     }
 }

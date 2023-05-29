@@ -38,7 +38,7 @@ body {
   display: flex;
 }
 #navbar a #logo .img {
-  background-image: url("../../images/document.png");
+  background-image: url("../document.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 50px;
@@ -92,7 +92,7 @@ header {
   text-align: center;
 }
 header .background-img {
-  background-image: url("../../images/image1.jpg");
+  background-image: url("../image1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ header .background-img #opacity .left-right .left-pan #icons {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon1 {
-  background-image: url("../../images/brain.png");
+  background-image: url("../brain.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,7 +183,7 @@ header .background-img #opacity .left-right .left-pan #icons .icon1 {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon2 {
-  background-image: url("../../images/web-design.png");
+  background-image: url("../web-design.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,7 +191,7 @@ header .background-img #opacity .left-right .left-pan #icons .icon2 {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon3 {
-  background-image: url("../../images/web-design (2).png");
+  background-image: url("../web-design (2).png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -235,7 +235,7 @@ header .background-img #opacity .left-right .right-pan #icons-right {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon1 {
-  background-image: url("../../images/develop.png");
+  background-image: url("../develop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -243,7 +243,7 @@ header .background-img #opacity .left-right .right-pan #icons-right .icon1 {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon2 {
-  background-image: url("../../images/software-developer.png");
+  background-image: url("../software-developer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ header .background-img #opacity .left-right .right-pan #icons-right .icon2 {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon3 {
-  background-image: url("../../images/website.png");
+  background-image: url("../website.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -276,11 +276,12 @@ header .background-img #opacity .get-to-know-me {
   font-size: 23px;
   width: 200px;
   font-weight: 800;
+  font-size: 20px;
   margin-top: 20px;
   background-color: #d4c6e6;
   border-radius: 20px;
   padding: 5px;
-  color: #000;
+  color: #333;
   transition: color 0.3s ease;
 }
 header .background-img #opacity .get-to-know-me:hover {
@@ -314,7 +315,7 @@ main section #behind {
   border-bottom-right-radius: 20px;
 }
 main section #photo-me {
-  background-image: url("../../images/image-me.jpg");
+  background-image: url("../image-me.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -373,6 +374,14 @@ main section .about3 .third-ul {
   margin-bottom: 0px;
   line-height: 1.35;
 }
+main section .about3 .third-ul li a {
+  color: #ac91ce;
+  font-weight: 900;
+  text-decoration: none;
+}
+main section .about3 .third-ul li a:hover {
+  color: #8966b3;
+}
 main section .headings {
   width: 30px;
   height: 80vh;
@@ -399,10 +408,12 @@ main #design #des {
   justify-content: center;
   width: 80%;
   height: 50px;
-  color: #ac91ce;
+  color: #d4c6e6;
   display: flex;
+  font-weight: 1000;
   align-items: center;
   border-bottom: 4px solid #d4c6e6;
+  margin-bottom: 20px;
 }
 main #design .design1 {
   display: flex;
@@ -410,6 +421,22 @@ main #design .design1 {
   align-items: center;
   width: 100%;
   height: 200px;
+  opacity: 0;
+  transform: translateX(-100%);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  animation: slideInFromLeft 3s forwards;
+}
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  }
 }
 main #design .design1 .icon1 {
   width: 25%;
@@ -445,6 +472,20 @@ main #design .design2 {
   align-items: center;
   width: 100%;
   height: 200px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideInFromRight 3s forwards;
+}
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 main #design .design2 .icon2 {
   width: 25%;
@@ -483,6 +524,22 @@ main #design .design3 {
   align-items: center;
   width: 100%;
   height: 200px;
+  opacity: 0;
+  transform: translateX(-100%);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  animation: slideInFromLeft 3s forwards;
+}
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  }
 }
 main #design .design3 .icon3 {
   width: 25%;
@@ -516,11 +573,13 @@ main #design #dev {
   justify-content: center;
   width: 80%;
   height: 50px;
-  color: #ac91ce;
+  color: #d4c6e6;
+  font-weight: 1000;
   display: flex;
   align-items: center;
   border-bottom: 4px solid #d4c6e6;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 main #design .developer1 {
   display: flex;
@@ -528,6 +587,22 @@ main #design .developer1 {
   align-items: center;
   width: 100%;
   height: 200px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideInFromRight 3s forwards;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+}
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  }
 }
 main #design .developer1 .icon4 {
   width: 25%;
@@ -566,6 +641,20 @@ main #design .developer2 {
   align-items: center;
   width: 100%;
   height: 200px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideInFromLeft 3s forwards;
+}
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 main #design .developer2 .icon5 {
   width: 25%;
@@ -601,6 +690,22 @@ main #design .developer3 {
   align-items: center;
   width: 100%;
   height: 200px;
+  opacity: 0;
+  transform: translateX(-100%);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  animation: slideInFromRight 3s forwards;
+}
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  }
 }
 main #design .developer3 .icon6 {
   width: 25%;
@@ -746,6 +851,7 @@ main #contact #contact-me {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex: 1;
 }
 main #contact #contact-me p {
@@ -758,7 +864,7 @@ main #contact #contact-me p {
   align-items: center;
 }
 main #contact #contact-form {
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
   flex: 1;
   display: flex;
@@ -780,10 +886,20 @@ main #contact .contact-row {
 main #contact input[type=text],
 main #contact input[type=email],
 main #contact textarea {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   width: 70%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  background-color: #f1efe9;
+  border: 2px solid #ac91ce;
+}
+main #contact input[type=text]:hover,
+main #contact input[type=email]:hover,
+main #contact textarea:hover {
+  background-color: rgb(190, 185, 185);
+  transition: background-color 0.3s;
 }
 main #contact input[type=text],
 main #contact input[type=email] {
@@ -791,21 +907,66 @@ main #contact input[type=email] {
 }
 main #contact textarea {
   resize: none;
+  border: 2px solid #ac91ce;
 }
 main #contact button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #f1efe9;
+  color: #ac91ce;
+  font-weight: 600;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 main #contact input[type=text]:focus,
 main #contact input[type=email]:focus,
 main #contact textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #f1efe9;
 }
 main #contact button:hover {
-  background-color: #0056b3;
+  background-color: #333;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #f1efe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .socials i {
+  color: #d4c6e6;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+footer .socials i:hover {
+  color: #3b5998; /* Facebook blue */
+}
+footer .socials a:nth-of-type(2) i:hover {
+  color: rgb(255, 85, 159);
+}
+footer .socials a:nth-of-type(3) i:hover {
+  color: #1da1f2; /* Twitter blue */
+}
+footer .sass {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+footer .sass a {
+  font-size: 19px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #ac91ce;
+  transition: all 0.2s ease-in-out;
+}
+footer .sass a:hover {
+  color: #333;
 }/*# sourceMappingURL=style.css.map */

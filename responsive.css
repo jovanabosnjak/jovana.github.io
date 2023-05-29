@@ -168,7 +168,11 @@
     align-self: self-start;
   }
   main #discover .headings p {
-    margin-left: 10px;
+    margin-left: 6px;
+    color: #d4c6e6;
+  }
+  main #discover .headings .e, main #discover .headings .c, main #discover .headings .t, main #discover .headings .s {
+    color: #f1efe9;
   }
   main #discover #block1-2 {
     width: 100%;
@@ -178,6 +182,40 @@
   }
   main #discover #block1-2 .block1 h1, main #discover #block1-2 .block2 h1 {
     font-size: 28px;
+  }
+  main #discover #behind2 {
+    border-top-left-radius: 0px;
+  }
+  main #contact {
+    flex-direction: row;
+  }
+  main #contact #contact-me {
+    order: 1;
+    padding: 10px;
+  }
+  main #contact #contact-me p {
+    font-size: 18px;
+  }
+  main #contact #contact-form {
+    order: 2;
+    min-width: 50%;
+  }
+  main #contact #contact-form .contact-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main #contact #contact-form input[type=text],
+  main #contact #contact-form input[type=email] {
+    width: 48%;
+    height: auto;
+  }
+  main #contact #contact-form textarea {
+    width: 100%;
+  }
+  main #contact #contact-form button {
+    width: auto;
   }
 }
 @media (max-width: 921px) {
@@ -247,7 +285,6 @@
   }
   #navbar ul li a {
     transition: none;
-    pointer-events: none;
     font-size: 18px;
   }
   header .background-img {
@@ -267,7 +304,6 @@
   }
   header .background-img #opacity .left-right .left-pan {
     transition: none;
-    pointer-events: none;
     width: 35vh;
   }
   header .background-img #opacity .left-right .left-pan h3 {
@@ -275,19 +311,16 @@
   }
   header .background-img #opacity .left-right .right-pan {
     transition: none;
-    pointer-events: none;
     width: 35vh;
   }
   header .background-img #opacity .left-right .right-pan a h3 {
     font-size: 2.5vh;
     transition: none;
-    pointer-events: none;
   }
   header .background-img #opacity .get-to-know-me {
     font-size: 15px;
     width: 150px;
     transition: none;
-    pointer-events: none;
   }
   main section {
     display: flex;
@@ -297,6 +330,7 @@
   main section #behind {
     width: 50%;
     height: 103%;
+    border-top-right-radius: 0px;
   }
   main section #photo-me {
     margin-top: 30px;
@@ -333,8 +367,8 @@
     border-right: 0px;
     border-top: 5px solid #d4c6e6;
     flex-direction: row;
-    height: 4vh;
-    padding-right: 40px;
+    height: 5vh;
+    padding-right: 57px;
     width: 100%;
     position: relative;
     align-self: self-start;
@@ -344,6 +378,9 @@
   }
   main section .headings p {
     color: #f1efe9;
+    margin-left: 5px;
+    padding-top: 10px;
+    font-size: 21px;
   }
   main section .headings .m, main section .headings .e {
     color: #d4c6e6;
@@ -430,6 +467,16 @@
   main #discover #block1-2 .block1 p, main #discover #block1-2 .block2 p {
     margin-top: 5px;
     font-size: 0.8rem;
+  }
+  main #contact #contact-me {
+    margin-top: 20px;
+  }
+  main #contact #contact-me p {
+    font-size: 17px;
+  }
+  main #contact .contact-row2 {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 481px) {
@@ -527,6 +574,9 @@
   }
   main #design #des, main #design #dev {
     height: 70px;
+  }
+  footer .socials a, footer .sass a {
+    font-size: 14px;
   }
 }
 @media (max-width: 412px) {
@@ -672,5 +722,20 @@
   main #discover #block1-2 .block1 h1, main #discover #block1-2 .block2 h1 {
     margin-top: 3px;
     font-size: 19px;
+  }
+  main #contact #contact-me p {
+    font-size: 15px;
+  }
+  main #contact #contact-f {
+    width: 80%;
+  }
+  main #contact input[type=text],
+  main #contact input[type=email],
+  main #contact textarea {
+    font-size: 15px;
+    height: 37px;
+  }
+  footer {
+    height: 150px;
   }
 }/*# sourceMappingURL=responsive.css.map */
