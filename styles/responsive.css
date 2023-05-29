@@ -134,7 +134,7 @@
     font-size: 4.2vh;
   }
   header .background-img #opacity .get-to-know-me {
-    font-size: 20px;
+    font-size: 18px;
     width: 170px;
   }
   main section .about3 .second-ul {
@@ -197,7 +197,7 @@
     width: 39vh;
   }
   header .background-img #opacity .get-to-know-me {
-    font-size: 19px;
+    font-size: 17px;
     width: 170px;
   }
   main section #photo-me {
@@ -284,7 +284,7 @@
     pointer-events: none;
   }
   header .background-img #opacity .get-to-know-me {
-    font-size: 16px;
+    font-size: 15px;
     width: 150px;
     transition: none;
     pointer-events: none;
@@ -494,7 +494,7 @@
   }
   header .background-img #opacity .get-to-know-me {
     width: 130px;
-    font-size: 14px;
+    font-size: 12px;
   }
   main section #photo-me {
     width: 35%;
@@ -569,7 +569,7 @@
   }
   header .background-img #opacity .get-to-know-me {
     width: 120px;
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 @media (max-width: 376px) {
@@ -655,7 +655,7 @@
   }
   header .background-img #opacity .get-to-know-me {
     width: 110px;
-    font-size: 12px;
+    font-size: 11px;
   }
   main section #about1-2 .about {
     font-size: 0.7rem;

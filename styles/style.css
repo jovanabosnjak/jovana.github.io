@@ -275,13 +275,13 @@ header .background-img #opacity .get-to-know-me {
   text-decoration: none;
   font-size: 23px;
   width: 200px;
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 20px;
   margin-top: 20px;
   background-color: #d4c6e6;
   border-radius: 20px;
   padding: 5px;
-  color: #000;
+  color: #333;
   transition: color 0.3s ease;
 }
 header .background-img #opacity .get-to-know-me:hover {
