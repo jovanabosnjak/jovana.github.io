@@ -1,0 +1,881 @@
+$laptop1: 1025px;
+$laptop2: 921px;
+$tablet1: 769px;
+$tablet2: 616px;
+$phone1: 481px;
+$phone2: 428px;
+$phone3: 415px;
+$phone4: 412px;
+$phone5: 376px;
+$phone6: 321px;
+
+@media (max-width: 1381px) {
+    main {
+        section {
+            margin-top: 50px;
+            #behind {
+                width: 15%;
+            }
+            #about1-2 {
+                .about {
+                    font-size: 1rem;
+                    width: 350px;
+                }
+                .about2 {
+                    font-size: 1rem;
+                    width: 350px;
+                }
+            }
+            .about3 {
+                ul {
+                    font-size: 1rem;
+                    width: 350px;
+                    h1 {
+                        font-size: 21px;
+                    }
+                }
+                .first-ul {
+                    padding-top: 1.7rem;
+                }
+                .second-ul {
+                    padding-left: 1.5rem;
+                    padding-top: 0.8rem;
+                }
+                .third-ul {
+                    padding-top: 1.7rem;
+                }
+            }
+           .headings {
+                p {
+                    font-size: 20px;
+                }
+           }
+        }
+        #discover {
+                .delete {
+                    display: none;
+                }
+                #block1-2 {
+                    width: 80%;
+                    .block1, .block2 {
+                        width: 47%;
+                        background: rgb(233, 232, 219);
+                    }
+                }
+        }
+    }
+}
+
+@media (max-width: 1181px) {
+    main {
+        width: 100%;
+        section {
+            #photo-me {
+                width: calc(25% - 50px); 
+                margin: 5px;
+              }
+              .headings {
+                width: 30px;
+              }
+          }
+    }
+}
+
+@media (max-width: 1125px) {
+    main {
+        height: 100%;
+        section {
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+                  #photo-me {
+                    margin-left: 25%;
+                    width: calc(60% - 50px); 
+                  }
+                  .about3, .headings {
+                    grid-row-start: 2;
+                  }
+                  #behind {
+                    width: 50%;
+                    height: 104%;
+                }
+                .about3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    ul {
+                        justify-self: center;
+                        background-color: #f1efe9;
+                    }
+                }
+              
+              .about3, .headings {
+                margin-top: 70px;
+              }
+              .headings {
+                width: 50%;
+                height: 40vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                padding: 4px;
+              }
+        }
+        .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+            img {
+                min-width: 35%;
+            }
+        }
+        #discover {
+            .headings {
+                width: 22px;
+                p {
+                    font-size: 21px;
+                }
+            }
+            #behind2 {
+                width: 50%;
+                height: 104%;
+            }
+            
+        }
+    }
+}
+
+@media (max-width: $laptop1) {
+    #navbar {
+        position: static;
+        #logo {
+            height: 50px;
+        }
+        ul {
+            li {
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    header {
+        .background-img {
+            margin-top: 0px;
+            #opacity {
+                h1 {
+                    font-size: 8vh;
+                }
+                h2 {
+                    font-size: 4.2vh;
+                }
+                .get-to-know-me {
+                        font-size: 20px;
+                        width: 170px;
+                }
+            }
+        }
+    }
+    main {
+        section {
+            .about3 {
+                .second-ul {
+                    padding-top: 25px;
+                    .delete {
+                        display: none;
+                    }
+                }
+            }
+        }
+        #design {
+            .developer1 {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                text-align: end;
+            }
+            .developer2 {
+                margin-bottom: 10px;
+            }
+        }
+        #discover {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+            .headings {
+                margin-bottom: 30px;
+                border-right: 0px;
+                border-left: 0px;
+                border-top: 5px solid #d4c6e6;
+                flex-direction: row;
+                height: 4vh;
+                width: 100%;
+                position: relative;
+                align-self: self-start;
+                p {
+                    margin-left: 10px;
+                }
+            }
+            
+            #block1-2 {
+                width: 100%;
+                .block1, .block2 {
+                    min-width: 45%;
+                    h1 {
+                        font-size: 28px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width: $laptop2) {
+    header {
+        .background-img {
+            #opacity {
+                h1 {
+                   font-size: 6.8vh;
+                   
+                }
+                h2 {
+                   font-size: 3vh;
+                }
+                .left-right {
+                    height: 184px;
+                    .left-pan {
+                        width: 39vh;
+                    }
+                    .right-pan {
+                        width: 39vh;
+                    }
+                }
+                .get-to-know-me {
+                        font-size: 19px;
+                        width: 170px;
+                }
+            }
+        }
+    }
+    @mixin laptop2features {
+        font-size: 0.9rem;
+        width: 300px;
+    }
+    main {
+        section {
+            #photo-me {
+                width: calc(60% - 50px);
+                height: 350px;
+            }
+            #about1-2 {
+                
+                .about {
+                    @include laptop2features;
+                }
+                .about2 {
+                    @include laptop2features;
+                }
+            }
+            .about3 {
+                ul {
+                    @include laptop2features;
+                }
+                .second-ul {
+                    padding-top: 26px;
+                }
+            }
+        }
+        #design {
+            .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+                img {
+                    min-width: 45%;
+                }
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet1) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        a {
+            #logo {
+                width: 90px;
+                margin: 0px auto;
+            }
+        }
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    transition: none;
+                    pointer-events: none;
+                    font-size: 18px;
+                }
+            }
+        }
+    }      
+    header {
+        .background-img {
+            
+            height: 85vh;
+            #opacity {
+                height: 85vh;
+                h1 {
+                   font-size: 6.5vh;
+                }
+                h2 {
+                   font-size: 3.2vh;
+                }
+                .left-right {
+                    height: 160px;
+                    
+                    .left-pan {
+                        transition: none;
+                        pointer-events: none;
+                        width: 35vh;
+                            h3 {
+                                font-size: 2.5vh;
+                            }
+                    }
+                    .right-pan {
+                        transition: none;
+                        pointer-events: none;
+                        width: 35vh;
+                        a {
+                            h3 {
+                                font-size: 2.5vh;
+                                transition: none;
+                                pointer-events: none;
+                            }
+                        }
+                    }
+                }
+                .get-to-know-me {
+                    font-size: 16px;
+                    width: 150px;
+                    transition: none;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+    main {
+        section {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            #behind {
+                width: 50%;
+                height: 103%;
+            }
+            #photo-me {
+                margin-top: 30px;
+                width: 33%;
+                margin-left: 0;
+                
+            }
+            #about1-2 {
+                margin-top: 30px;
+                position: relative;
+                width: 100%;
+                
+                .about {
+                    background-color: #f1efe9;
+                    width: 350px;
+                    align-self: flex-start;
+                    margin: 0px;
+                    
+                }
+                .about2 {
+                    box-shadow: 0 10px 0 -5px #b198d2;
+                    background-color: #d4c6e6;
+                    width: 350px;
+                    align-self: flex-end;
+                    margin-top: 5px;
+                    text-align: end;
+                }
+            }
+            .about3 {
+                margin-top: 30px;
+                ul {
+                    color: #b198d2;
+                }
+            }
+            .headings {
+                margin-top: 0px;
+                border-right: 0px;
+                border-top: 5px solid #d4c6e6;
+                flex-direction: row;
+                height: 4vh;
+                padding-right: 40px;
+                width: 100%;
+                position: relative;
+                align-self: self-start;
+                &:nth-child(5) {
+                    order: -1;
+                }
+                p {
+                    color: #f1efe9;
+                }
+                .m, .e {
+                    color: #d4c6e6;
+                }
+            }
+        }
+        #design {
+            .design1, .design2, .design3, .developer1, .developer2, .developer3 {
+                height: 270px;
+                margin: 0px;
+            }
+            .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+                img {
+                    min-width: 50%;
+                }
+            }
+            .text1, .text3, .text5 {
+                h1 {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    text-align: start;
+                }
+            }
+            h1 {
+                text-align: end;
+            }
+        }
+    }
+}
+
+
+@media (max-width: $tablet2) {
+    #navbar {
+        
+        a {
+            #logo {
+                margin: 0px auto;
+                p {
+                   font-size: 23px;
+                }
+            }
+        }
+        ul {
+            li {
+                a {
+                    font-size: 17px;
+                    &:not(:last-child) {
+                    margin-right: 40px;
+                    }
+                }
+            }
+        }
+    }
+    header {
+        .background-img {
+            #opacity {
+                h1 {
+                   font-size: 6.2vh;
+                }
+                h2 {
+                  font-size: 3vh;
+                }
+                .left-right {
+                    height: 140px;
+                    .left-pan {
+                        width: 27vh;
+                        #icons {
+                            transform: scale(0.9);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2.2vh;
+                            }
+                        }
+                    }
+                    .right-pan {
+                        width: 27vh;
+                        #icons-right {
+                            transform: scale(0.9);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2.2vh;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }  
+    main {
+        #design {
+            .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+                img {
+                    min-width: 60%;
+                }
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+        }
+        #discover {
+            #block1-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .block1, .block2 {
+                    margin-bottom: 20px;
+                    min-width: 75%;
+                    h1 {
+                        margin-top: 5px;
+                        font-size: 22px;
+                    }
+                    p {
+                        margin-top: 5px;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: $phone1) {
+    #navbar {
+        height: 280px;
+        position: static;
+        a {
+            #logo {
+                margin: 0px auto;
+                p {
+                    font-size: 21px;
+                }
+            }
+        }
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    a {
+                        margin-bottom: 20px;
+                        &:not(:last-child) {
+                            margin-left: 40px;
+                          }
+                        &:last-child {
+                            margin: 0px;
+                          }
+                    }
+                }
+            }
+            
+    }
+    header {
+        .background-img {
+            margin-top: 0;
+            height: 80vh;
+            #opacity {
+                height: 78vh;
+                h1 {
+                    font-size: 40px;
+                }
+                h2 {
+                    font-size: 18px;
+                }
+                .left-right {
+                    height: 120px;
+                    .left-pan {
+                        width: 23vh;
+                        #icons {
+                            transform: scale(0.8);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2vh;
+                            }
+                        }
+                    }
+                    .right-pan {
+                        width: 23vh;
+                        #icons-right {
+                            transform: scale(0.8);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2vh;
+                            }
+                        }
+                    }
+
+                }
+                .get-to-know-me {
+                    width: 130px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    main {
+        section {
+            #photo-me {
+                width: 35%;
+                height: 250px;
+            }
+        }
+        #design {
+            .design1, .design2, .design3, .developer1, .developer2, .developer3 {
+                display: flex;
+                flex-direction: column;
+                .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+                    img {
+                        max-width: 55%;
+                    }
+                }
+                
+                .text2, .text4, .text6 {
+                    order: 2;
+                    width: 90%;
+                }
+                .text1, .text3, .text5 {
+                    width: 90%;
+                }
+                .icon2, .icon4, .icon6 {
+                    order: 1;
+                } 
+            }
+        }
+    }
+}
+
+@media (max-width: $phone2) {
+    header {
+        .background-img {
+            height: 80vh;
+            #opacity {
+                height: 80vh;
+            }
+        }
+    }
+    main {
+        #design {
+            #des, #dev {
+                height: 70px;
+            }
+        }
+    }
+}
+
+@media (max-width: $phone3) {
+    
+}
+
+@media (max-width: $phone4) {
+    header {
+        .background-img {
+            height: 70vh;
+            #opacity {
+                height: 70vh;
+                h1 {
+                    font-size: 38px;
+                }
+                h2 {
+                    font-size: 16px;
+                }
+                .left-right {
+                    height: 240px;
+                    flex-direction: column;
+                    margin-top: 20px;
+                    .left-pan {
+                        width: 23vh;
+                        margin-right: 0px;
+                        margin-bottom: 20px;
+                        #icons {
+                            transform: scale(0.8);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2vh;
+                            }
+                        }
+                    }
+                    .right-pan {
+                        width: 23vh;
+                        #icons-right {
+                            transform: scale(0.8);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2vh;
+                            }
+                        }
+                    }
+                }
+                .get-to-know-me {
+                    width: 120px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $phone5) {
+    #navbar {
+        #logo {
+            margin: 0px auto;
+        }
+        ul {
+            li {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    main {
+        section {
+            #photo-me {
+                width: 40%;
+                height: 200px;
+            }
+            #about1-2 {
+                .about {
+                    font-size: 0.8rem;
+                    width: 320px;
+                    padding: 1rem;
+                }
+                .about2 {
+                    font-size: 0.8rem;
+                    width: 320px;
+                    padding: 1rem;
+                }
+            }
+            .about3 {
+                ul {
+                    font-size: 0.8rem;
+                    width: 200px;
+                    height: 140px;
+                    h1 {
+                        font-size: 18px;
+                    }
+                   
+                }
+                .first-ul {
+                    padding-top: 2rem;
+                }
+                .second-ul {
+                    padding-top: 0.6rem;
+                }
+                .third-ul {
+                    padding-top: 1.4rem;
+                }
+            }
+        }
+        #design {
+            h1 {
+                font-size: 1.3rem;
+            }
+            .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+                img {
+                    max-width: 65%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $phone6) {
+    header {
+        .background-img {
+            height: 60vh;
+            #opacity {
+                height: 60vh;
+                h1 {
+                    font-size: 34px;
+                }
+                h2 {
+                    font-size: 14px;
+                }
+                .left-right {
+                    height: 210px;
+                    .left-pan {
+                        justify-content: center;
+                        width: 19vh;
+                        #icons {
+                            transform: scale(0.7);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2vh;
+                            }
+                        }
+                    }
+                    .right-pan {
+                        width: 19vh;
+                        justify-content: center;
+                        #icons-right {
+                            transform: scale(0.7);
+                        }
+                        a {
+                            h3 {
+                                font-size: 2vh;
+                            }
+                        }
+                    }
+                }
+                .get-to-know-me {
+                    width: 110px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    main {
+        section {
+            #about1-2 {
+                .about {
+                    font-size: 0.7rem;
+                    width: 200px;
+                    height: auto;
+                    padding: 0.8rem;
+                }
+                .about2 {
+                    font-size: 0.7rem;
+                    width: 200px;
+                    height: auto;
+                    padding: 0.8rem;
+                }
+            }
+        }
+        #discover { 
+            #block1-2 {
+                .block1, .block2 {
+                    h1 {
+                        margin-top: 3px;
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+    }
+}
