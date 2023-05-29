@@ -45,7 +45,7 @@ body {
                 font-size: 20px;
                 display: flex;
                 .img {
-                    background-image: url('../../images/document.png');
+                    background-image: url('../document.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     width: 50px;
@@ -115,7 +115,7 @@ header {
     @include flex-position-center;
     text-align: center;
     .background-img {
-        background-image: url("../../images/image1.jpg");
+        background-image: url("../image1.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -196,15 +196,15 @@ header {
                             width: 100%;
                             height: 50px;
                             .icon1 {
-                                background-image: url('../../images/brain.png');
+                                background-image: url('../brain.png');
                                 @include img-features;
                             }
                             .icon2 {
-                                background-image: url('../../images/web-design.png');
+                                background-image: url('../web-design.png');
                                 @include img-features;
                             }
                             .icon3 {
-                                background-image: url('../../images/web-design\ \(2\).png');
+                                background-image: url('../web-design\ \(2\).png');
                                 @include img-features;
                             }
                         }
@@ -242,15 +242,15 @@ header {
                             width: 100%;
                             height: 50px;
                             .icon1 {
-                                background-image: url('../../images/develop.png');
+                                background-image: url('../develop.png');
                                 @include img-features;
                             }
                             .icon2 {
-                                background-image: url('../../images/software-developer.png');
+                                background-image: url('../software-developer.png');
                                 @include img-features;
                             }
                             .icon3 {
-                                background-image: url('../../images/website.png');
+                                background-image: url('../website.png');
                                 @include img-features;
                             }
                         }
@@ -272,11 +272,12 @@ header {
                     @include links-a;
                     width: 200px;
                     font-weight: 800;
+                    font-size: 20px;
                     margin-top: 20px;
                     background-color: #d4c6e6;
                     border-radius: 20px;
                     padding: 5px;
-                    color: #000;
+                    color: #333;
                     transition: color 0.3s ease;
                     &:hover {
                         color: #800080;
@@ -345,7 +346,7 @@ main {
                 border-bottom-right-radius: 20px;
             }
             #photo-me {
-                background-image: url('../../images/image-me.jpg');
+                background-image: url('../image-me.jpg');
                 @include img-features;
                 width: 16%;
                 height: 53vh;
@@ -685,7 +686,7 @@ main {
                 }
             }
             #contact-form {
-                width: 40%; 
+                width: 100%; 
                 margin: 0 auto;
                 flex: 1;
                 display: flex;
@@ -700,7 +701,6 @@ main {
                 flex: 1;
                 display: flex;
                 flex-direction: column;
-                
             }
             
             .contact-row {
@@ -710,10 +710,13 @@ main {
             input[type="text"],
             input[type="email"],
             textarea {
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
                 width: 70%;
                 padding: 10px;
                 border: 1px solid #ccc;
                 border-radius: 10px;
+                background-color: #f1efe9;
             }
             
             input[type="text"],
@@ -726,24 +729,25 @@ main {
             }
             
             button {
-                background-color: #007bff;
-                color: #fff;
+                background-color: #f1efe9;
+                color: #ac91ce;
+                font-weight: 600;
                 border: none;
                 border-radius: 10px;
                 padding: 10px 20px;
                 cursor: pointer;
+                font-family: "Inter", sans-serif;
             }
             
-            // Pseudo-klase za stanja
             input[type="text"]:focus,
             input[type="email"]:focus,
             textarea:focus {
                 outline: none;
-                border-color: #007bff;
+                border-color: #f1efe9;
             }
             
             button:hover {
-                background-color: #0056b3;
+                background-color: #333;
             }
     }
 }

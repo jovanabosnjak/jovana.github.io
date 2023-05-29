@@ -38,7 +38,7 @@ body {
   display: flex;
 }
 #navbar a #logo .img {
-  background-image: url("../../images/document.png");
+  background-image: url("../document.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 50px;
@@ -92,7 +92,7 @@ header {
   text-align: center;
 }
 header .background-img {
-  background-image: url("../../images/image1.jpg");
+  background-image: url("../image1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ header .background-img #opacity .left-right .left-pan #icons {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon1 {
-  background-image: url("../../images/brain.png");
+  background-image: url("../brain.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,7 +183,7 @@ header .background-img #opacity .left-right .left-pan #icons .icon1 {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon2 {
-  background-image: url("../../images/web-design.png");
+  background-image: url("../web-design.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,7 +191,7 @@ header .background-img #opacity .left-right .left-pan #icons .icon2 {
   height: 50px;
 }
 header .background-img #opacity .left-right .left-pan #icons .icon3 {
-  background-image: url("../../images/web-design (2).png");
+  background-image: url("../web-design (2).png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -235,7 +235,7 @@ header .background-img #opacity .left-right .right-pan #icons-right {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon1 {
-  background-image: url("../../images/develop.png");
+  background-image: url("../develop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -243,7 +243,7 @@ header .background-img #opacity .left-right .right-pan #icons-right .icon1 {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon2 {
-  background-image: url("../../images/software-developer.png");
+  background-image: url("../software-developer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ header .background-img #opacity .left-right .right-pan #icons-right .icon2 {
   height: 50px;
 }
 header .background-img #opacity .left-right .right-pan #icons-right .icon3 {
-  background-image: url("../../images/website.png");
+  background-image: url("../website.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -276,11 +276,12 @@ header .background-img #opacity .get-to-know-me {
   font-size: 23px;
   width: 200px;
   font-weight: 800;
+  font-size: 20px;
   margin-top: 20px;
   background-color: #d4c6e6;
   border-radius: 20px;
   padding: 5px;
-  color: #000;
+  color: #333;
   transition: color 0.3s ease;
 }
 header .background-img #opacity .get-to-know-me:hover {
@@ -314,7 +315,7 @@ main section #behind {
   border-bottom-right-radius: 20px;
 }
 main section #photo-me {
-  background-image: url("../../images/image-me.jpg");
+  background-image: url("../image-me.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -758,7 +759,7 @@ main #contact #contact-me p {
   align-items: center;
 }
 main #contact #contact-form {
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
   flex: 1;
   display: flex;
@@ -780,10 +781,13 @@ main #contact .contact-row {
 main #contact input[type=text],
 main #contact input[type=email],
 main #contact textarea {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   width: 70%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  background-color: #f1efe9;
 }
 main #contact input[type=text],
 main #contact input[type=email] {
@@ -793,19 +797,21 @@ main #contact textarea {
   resize: none;
 }
 main #contact button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #f1efe9;
+  color: #ac91ce;
+  font-weight: 600;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 main #contact input[type=text]:focus,
 main #contact input[type=email]:focus,
 main #contact textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #f1efe9;
 }
 main #contact button:hover {
-  background-color: #0056b3;
+  background-color: #333;
 }/*# sourceMappingURL=style.css.map */
