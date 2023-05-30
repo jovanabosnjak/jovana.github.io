@@ -666,6 +666,12 @@
   main #design .icon1 img, main #design .icon2 img, main #design .icon3 img, main #design .icon4 img, main #design .icon5 img, main #design .icon6 img {
     max-width: 65%;
   }
+  main #design .text4 {
+    margin-bottom: 20px;
+  }
+  main #design .text5 {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 321px) {
   header .background-img {
