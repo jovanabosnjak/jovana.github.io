@@ -503,6 +503,7 @@ $phone6: 321px;
                 text-align: end;
             }
         }
+        
     }
 }
 
@@ -601,7 +602,14 @@ $phone6: 321px;
             }
         }
         #contact {
+            display: flex;
+            flex-direction: column;
             #contact-me {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
                 margin-top: 20px;
                 p {
                     font-size: 17px;
@@ -882,7 +890,7 @@ $phone6: 321px;
         }
         #contact {
             #contact-me {
-                width: 51%;
+                width: 70%;
                 p {
                     font-size: 14px;
                 }
@@ -974,7 +982,7 @@ $phone6: 321px;
         }
         #contact {
             #contact-me {
-                
+                width: 70%;
                 p {
                     font-size: 13px;
                     width: 80%;

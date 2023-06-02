@@ -469,7 +469,16 @@
     margin-top: 5px;
     font-size: 0.8rem;
   }
+  main #contact {
+    display: flex;
+    flex-direction: column;
+  }
   main #contact #contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     margin-top: 20px;
   }
   main #contact #contact-me p {
@@ -684,7 +693,7 @@
     margin-bottom: 20px;
   }
   main #contact #contact-me {
-    width: 51%;
+    width: 70%;
   }
   main #contact #contact-me p {
     font-size: 14px;
@@ -751,6 +760,9 @@
   main #discover #block1-2 .block1 h1, main #discover #block1-2 .block2 h1 {
     margin-top: 3px;
     font-size: 19px;
+  }
+  main #contact #contact-me {
+    width: 70%;
   }
   main #contact #contact-me p {
     font-size: 13px;
