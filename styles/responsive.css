@@ -558,8 +558,10 @@
   main #design .design1 .text2, main #design .design1 .text4, main #design .design1 .text6, main #design .design2 .text2, main #design .design2 .text4, main #design .design2 .text6, main #design .design3 .text2, main #design .design3 .text4, main #design .design3 .text6, main #design .developer1 .text2, main #design .developer1 .text4, main #design .developer1 .text6, main #design .developer2 .text2, main #design .developer2 .text4, main #design .developer2 .text6, main #design .developer3 .text2, main #design .developer3 .text4, main #design .developer3 .text6 {
     order: 2;
     width: 90%;
+    height: 90%;
   }
   main #design .design1 .text1, main #design .design1 .text3, main #design .design1 .text5, main #design .design2 .text1, main #design .design2 .text3, main #design .design2 .text5, main #design .design3 .text1, main #design .design3 .text3, main #design .design3 .text5, main #design .developer1 .text1, main #design .developer1 .text3, main #design .developer1 .text5, main #design .developer2 .text1, main #design .developer2 .text3, main #design .developer2 .text5, main #design .developer3 .text1, main #design .developer3 .text3, main #design .developer3 .text5 {
+    height: 90%;
     width: 90%;
   }
   main #design .design1 .icon2, main #design .design1 .icon4, main #design .design1 .icon6, main #design .design2 .icon2, main #design .design2 .icon4, main #design .design2 .icon6, main #design .design3 .icon2, main #design .design3 .icon4, main #design .design3 .icon6, main #design .developer1 .icon2, main #design .developer1 .icon4, main #design .developer1 .icon6, main #design .developer2 .icon2, main #design .developer2 .icon4, main #design .developer2 .icon6, main #design .developer3 .icon2, main #design .developer3 .icon4, main #design .developer3 .icon6 {
@@ -664,7 +666,7 @@
     padding-top: 2rem;
   }
   main section .about3 .second-ul {
-    padding-top: 0.6rem;
+    padding-top: 2rem;
   }
   main section .about3 .third-ul {
     padding-top: 1.4rem;
@@ -739,6 +741,12 @@
     width: 200px;
     height: auto;
     padding: 0.8rem;
+  }
+  main #design .design1, main #design .design2, main #design .design3 {
+    padding-bottom: 10px;
+  }
+  main #design .design1, main #design .design2, main #design .design3, main #design .developer1, main #design .developer2, main #design .developer3 {
+    height: 300px;
   }
   main #discover #block1-2 .block1 h1, main #discover #block1-2 .block2 h1 {
     margin-top: 3px;

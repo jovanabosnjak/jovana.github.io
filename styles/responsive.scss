@@ -704,20 +704,25 @@ $phone6: 321px;
                 display: flex;
                 flex-direction: column;
                 .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+                    
                     img {
                         max-width: 55%;
+                        
                     }
                 }
                 
                 .text2, .text4, .text6 {
                     order: 2;
                     width: 90%;
+                    height: 90%;
                 }
                 .text1, .text3, .text5 {
+                    height: 90%;
                     width: 90%;
                 }
                 .icon2, .icon4, .icon6 {
                     order: 1;
+                    
                 } 
             }
         }
@@ -852,7 +857,7 @@ $phone6: 321px;
                     padding-top: 2rem;
                 }
                 .second-ul {
-                    padding-top: 0.6rem;
+                    padding-top: 2rem;
                 }
                 .third-ul {
                     padding-top: 1.4rem;
@@ -947,6 +952,14 @@ $phone6: 321px;
                     height: auto;
                     padding: 0.8rem;
                 }
+            }
+        }
+        #design {
+            .design1, .design2, .design3 {
+                padding-bottom: 10px;
+            }
+            .design1, .design2, .design3, .developer1, .developer2, .developer3 {
+                height: 300px;
             }
         }
         #discover { 
