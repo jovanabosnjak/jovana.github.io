@@ -190,9 +190,10 @@ $phone6: 321px;
         }
         #design {
             .developer1 {
-                margin-top: 30px;
-                margin-bottom: 30px;
                 text-align: end;
+                .text4 {
+                    width: 50%;
+                }
             }
             .developer2 {
                 margin-bottom: 10px;
@@ -748,10 +749,6 @@ $phone6: 321px;
     }
 }
 
-@media (max-width: $phone3) {
-    
-}
-
 @media (max-width: $phone4) {
     header {
         .background-img {
@@ -774,6 +771,10 @@ $phone6: 321px;
                         margin-bottom: 20px;
                         #icons {
                             transform: scale(0.8);
+                            .icon1, .icon2, .icon3 {
+                                width: 40px;
+                                height: 40px;
+                            }
                         }
                         a {
                             h3 {
@@ -785,6 +786,10 @@ $phone6: 321px;
                         width: 23vh;
                         #icons-right {
                             transform: scale(0.8);
+                            .icon1, .icon2, .icon3 {
+                                width: 40px;
+                                height: 40px;
+                            }
                         }
                         a {
                             h3 {
@@ -870,6 +875,14 @@ $phone6: 321px;
                 margin-bottom: 20px;
             }
         }
+        #contact {
+            #contact-me {
+                width: 51%;
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
     }
 }
 
@@ -889,9 +902,9 @@ $phone6: 321px;
                     height: 210px;
                     .left-pan {
                         justify-content: center;
-                        width: 19vh;
+                        width: 22vh;
                         #icons {
-                            transform: scale(0.7);
+                            transform: scale(0.8);
                         }
                         a {
                             h3 {
@@ -900,10 +913,10 @@ $phone6: 321px;
                         }
                     }
                     .right-pan {
-                        width: 19vh;
+                        width: 22vh;
                         justify-content: center;
                         #icons-right {
-                            transform: scale(0.7);
+                            transform: scale(0.8);
                         }
                         a {
                             h3 {
@@ -948,16 +961,18 @@ $phone6: 321px;
         }
         #contact {
             #contact-me {
+                
                 p {
-                    font-size: 15px;
+                    font-size: 13px;
+                    width: 80%;
                 }
             }
             #contact-f {
-                width: 80%;
+                width: 90%;
             }
-            input[type="text"],
-            input[type="email"], 
-            textarea  {
+            input[type="text"]
+            
+              {
                 font-size: 15px;
                 height: 37px;
             }

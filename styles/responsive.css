@@ -144,9 +144,10 @@
     display: none;
   }
   main #design .developer1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
     text-align: end;
+  }
+  main #design .developer1 .text4 {
+    width: 50%;
   }
   main #design .developer2 {
     margin-bottom: 10px;
@@ -605,6 +606,10 @@
   header .background-img #opacity .left-right .left-pan #icons {
     transform: scale(0.8);
   }
+  header .background-img #opacity .left-right .left-pan #icons .icon1, header .background-img #opacity .left-right .left-pan #icons .icon2, header .background-img #opacity .left-right .left-pan #icons .icon3 {
+    width: 40px;
+    height: 40px;
+  }
   header .background-img #opacity .left-right .left-pan a h3 {
     font-size: 2vh;
   }
@@ -613,6 +618,10 @@
   }
   header .background-img #opacity .left-right .right-pan #icons-right {
     transform: scale(0.8);
+  }
+  header .background-img #opacity .left-right .right-pan #icons-right .icon1, header .background-img #opacity .left-right .right-pan #icons-right .icon2, header .background-img #opacity .left-right .right-pan #icons-right .icon3 {
+    width: 40px;
+    height: 40px;
   }
   header .background-img #opacity .left-right .right-pan a h3 {
     font-size: 2vh;
@@ -672,6 +681,12 @@
   main #design .text5 {
     margin-bottom: 20px;
   }
+  main #contact #contact-me {
+    width: 51%;
+  }
+  main #contact #contact-me p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 321px) {
   header .background-img {
@@ -691,20 +706,20 @@
   }
   header .background-img #opacity .left-right .left-pan {
     justify-content: center;
-    width: 19vh;
+    width: 22vh;
   }
   header .background-img #opacity .left-right .left-pan #icons {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
   header .background-img #opacity .left-right .left-pan a h3 {
     font-size: 2vh;
   }
   header .background-img #opacity .left-right .right-pan {
-    width: 19vh;
+    width: 22vh;
     justify-content: center;
   }
   header .background-img #opacity .left-right .right-pan #icons-right {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
   header .background-img #opacity .left-right .right-pan a h3 {
     font-size: 2vh;
@@ -730,14 +745,13 @@
     font-size: 19px;
   }
   main #contact #contact-me p {
-    font-size: 15px;
-  }
-  main #contact #contact-f {
+    font-size: 13px;
     width: 80%;
   }
-  main #contact input[type=text],
-  main #contact input[type=email],
-  main #contact textarea {
+  main #contact #contact-f {
+    width: 90%;
+  }
+  main #contact input[type=text] {
     font-size: 15px;
     height: 37px;
   }
